@@ -1,0 +1,14 @@
+/home/azulf/Dev/BMW_Project/build/CMakeFiles/edit_cache.dir
+/home/azulf/Dev/BMW_Project/build/CMakeFiles/rebuild_cache.dir
+/home/azulf/Dev/BMW_Project/build/common/CMakeFiles/common.dir
+/home/azulf/Dev/BMW_Project/build/common/CMakeFiles/edit_cache.dir
+/home/azulf/Dev/BMW_Project/build/common/CMakeFiles/rebuild_cache.dir
+/home/azulf/Dev/BMW_Project/build/services/vehicle_service/CMakeFiles/vehicle_service.dir
+/home/azulf/Dev/BMW_Project/build/services/vehicle_service/CMakeFiles/edit_cache.dir
+/home/azulf/Dev/BMW_Project/build/services/vehicle_service/CMakeFiles/rebuild_cache.dir
+/home/azulf/Dev/BMW_Project/build/services/system_controller/CMakeFiles/edit_cache.dir
+/home/azulf/Dev/BMW_Project/build/services/system_controller/CMakeFiles/rebuild_cache.dir
+/home/azulf/Dev/BMW_Project/build/services/media_service/CMakeFiles/edit_cache.dir
+/home/azulf/Dev/BMW_Project/build/services/media_service/CMakeFiles/rebuild_cache.dir
+/home/azulf/Dev/BMW_Project/build/services/diagnostics_service/CMakeFiles/edit_cache.dir
+/home/azulf/Dev/BMW_Project/build/services/diagnostics_service/CMakeFiles/rebuild_cache.dir

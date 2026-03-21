@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcommon.a CMakeFiles/common.dir/logger/Logger.cpp.o CMakeFiles/common.dir/config/ConfigLoader.cpp.o CMakeFiles/common.dir/ipc/TcpServer.cpp.o CMakeFiles/common.dir/ipc/TcpClient.cpp.o
+/usr/bin/ranlib libcommon.a
