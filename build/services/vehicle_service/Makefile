@@ -130,6 +130,54 @@ vehicle_service/fast:
 	cd /home/azulf/Dev/BMW_Project/build && $(MAKE) $(MAKESILENT) -f services/vehicle_service/CMakeFiles/vehicle_service.dir/build.make services/vehicle_service/CMakeFiles/vehicle_service.dir/build
 .PHONY : vehicle_service/fast
 
+VehicleService.o: VehicleService.cpp.o
+.PHONY : VehicleService.o
+
+# target to build an object file
+VehicleService.cpp.o:
+	cd /home/azulf/Dev/BMW_Project/build && $(MAKE) $(MAKESILENT) -f services/vehicle_service/CMakeFiles/vehicle_service.dir/build.make services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleService.cpp.o
+.PHONY : VehicleService.cpp.o
+
+VehicleService.i: VehicleService.cpp.i
+.PHONY : VehicleService.i
+
+# target to preprocess a source file
+VehicleService.cpp.i:
+	cd /home/azulf/Dev/BMW_Project/build && $(MAKE) $(MAKESILENT) -f services/vehicle_service/CMakeFiles/vehicle_service.dir/build.make services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleService.cpp.i
+.PHONY : VehicleService.cpp.i
+
+VehicleService.s: VehicleService.cpp.s
+.PHONY : VehicleService.s
+
+# target to generate assembly for a file
+VehicleService.cpp.s:
+	cd /home/azulf/Dev/BMW_Project/build && $(MAKE) $(MAKESILENT) -f services/vehicle_service/CMakeFiles/vehicle_service.dir/build.make services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleService.cpp.s
+.PHONY : VehicleService.cpp.s
+
+VehicleSimulator.o: VehicleSimulator.cpp.o
+.PHONY : VehicleSimulator.o
+
+# target to build an object file
+VehicleSimulator.cpp.o:
+	cd /home/azulf/Dev/BMW_Project/build && $(MAKE) $(MAKESILENT) -f services/vehicle_service/CMakeFiles/vehicle_service.dir/build.make services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleSimulator.cpp.o
+.PHONY : VehicleSimulator.cpp.o
+
+VehicleSimulator.i: VehicleSimulator.cpp.i
+.PHONY : VehicleSimulator.i
+
+# target to preprocess a source file
+VehicleSimulator.cpp.i:
+	cd /home/azulf/Dev/BMW_Project/build && $(MAKE) $(MAKESILENT) -f services/vehicle_service/CMakeFiles/vehicle_service.dir/build.make services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleSimulator.cpp.i
+.PHONY : VehicleSimulator.cpp.i
+
+VehicleSimulator.s: VehicleSimulator.cpp.s
+.PHONY : VehicleSimulator.s
+
+# target to generate assembly for a file
+VehicleSimulator.cpp.s:
+	cd /home/azulf/Dev/BMW_Project/build && $(MAKE) $(MAKESILENT) -f services/vehicle_service/CMakeFiles/vehicle_service.dir/build.make services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleSimulator.cpp.s
+.PHONY : VehicleSimulator.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -163,6 +211,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... vehicle_service"
+	@echo "... VehicleService.o"
+	@echo "... VehicleService.i"
+	@echo "... VehicleService.s"
+	@echo "... VehicleSimulator.o"
+	@echo "... VehicleSimulator.i"
+	@echo "... VehicleSimulator.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

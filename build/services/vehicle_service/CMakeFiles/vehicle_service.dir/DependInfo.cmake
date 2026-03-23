@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/azulf/Dev/BMW_Project/services/vehicle_service/VehicleService.cpp" "services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleService.cpp.o" "gcc" "services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleService.cpp.o.d"
+  "/home/azulf/Dev/BMW_Project/services/vehicle_service/VehicleSimulator.cpp" "services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleSimulator.cpp.o" "gcc" "services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleSimulator.cpp.o.d"
   "/home/azulf/Dev/BMW_Project/services/vehicle_service/main.cpp" "services/vehicle_service/CMakeFiles/vehicle_service.dir/main.cpp.o" "gcc" "services/vehicle_service/CMakeFiles/vehicle_service.dir/main.cpp.o.d"
   )
 

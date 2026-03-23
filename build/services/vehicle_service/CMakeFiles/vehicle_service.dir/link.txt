@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/vehicle_service.dir/main.cpp.o -o vehicle_service  ../../common/libcommon.a 
+/usr/bin/c++ CMakeFiles/vehicle_service.dir/main.cpp.o CMakeFiles/vehicle_service.dir/VehicleService.cpp.o CMakeFiles/vehicle_service.dir/VehicleSimulator.cpp.o -o vehicle_service  ../../common/libcommon.a 

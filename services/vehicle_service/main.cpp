@@ -1,6 +1,7 @@
 #include <iostream>
 #include "logger/Logger.h"
 #include "config/ConfigLoader.h"
+#include "VehicleService.h"
 
 void init(ConfigLoader& config){            //helper function to init the service
 config.loadFromFile("../../../configs/configs.json");
@@ -23,8 +24,11 @@ int main(){
     
 
     Logger::getLogger().log(LogLevel::INFO, "Engine start!");
-    Logger::getLogger().log(LogLevel::WARN, "10'%' fuel!");
+    Logger::getLogger().log(LogLevel::WARN, "Carburetor yellow check!");
+
     //start the service
+    VehicleService service(config);
+    service.start();
 
     return 0;
 }

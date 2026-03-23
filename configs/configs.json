@@ -1,13 +1,13 @@
 {
    "vehicle_service": {
        "port": 5555,
-       "update_frequency_ms": 100
+       "update_frequency_s": 2
    },
    "media_service": {
        "port": 5556
    },
    "logging": {
-       "level": "WARN",
+       "level": "INFO",
        "file": "log.txt"
    }
 }
