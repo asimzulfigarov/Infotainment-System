@@ -25,4 +25,6 @@ public:
 public:
     void log(LogLevel level, const std::string& message);
     void setLevel(LogLevel level);
+    void setLevel(const std::string& level);
+    void u_setLevel(LogLevel level);
 };
