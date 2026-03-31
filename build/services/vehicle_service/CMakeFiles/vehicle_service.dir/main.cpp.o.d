@@ -1,5 +1,5 @@
 services/vehicle_service/CMakeFiles/vehicle_service.dir/main.cpp.o: \
- /home/azulf/Dev/BMW_Project/services/vehicle_service/main.cpp \
+ /home/vboxuser/Dev/Infotainment-System/services/vehicle_service/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/iostream \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -150,7 +150,7 @@ services/vehicle_service/CMakeFiles/vehicle_service.dir/main.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /home/azulf/Dev/BMW_Project/common/logger/Logger.h \
+ /home/vboxuser/Dev/Infotainment-System/common/logger/Logger.h \
  /usr/include/c++/13/mutex /usr/include/c++/13/bits/chrono.h \
  /usr/include/c++/13/ratio /usr/include/c++/13/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
@@ -160,7 +160,7 @@ services/vehicle_service/CMakeFiles/vehicle_service.dir/main.cpp.o: \
  /usr/include/c++/13/bits/parse_numbers.h \
  /usr/include/c++/13/bits/std_mutex.h \
  /usr/include/c++/13/bits/unique_lock.h \
- /home/azulf/Dev/BMW_Project/common/config/ConfigLoader.h \
+ /home/vboxuser/Dev/Infotainment-System/common/config/ConfigLoader.h \
  /usr/include/nlohmann/json.hpp /usr/include/c++/13/algorithm \
  /usr/include/c++/13/bits/stl_algo.h \
  /usr/include/c++/13/bits/algorithmfwd.h \
@@ -294,8 +294,8 @@ services/vehicle_service/CMakeFiles/vehicle_service.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc \
- /home/azulf/Dev/BMW_Project/services/vehicle_service/VehicleService.h \
- /home/azulf/Dev/BMW_Project/services/vehicle_service/VehicleSimulator.h \
+ /home/vboxuser/Dev/Infotainment-System/services/vehicle_service/VehicleService.h \
+ /home/vboxuser/Dev/Infotainment-System/services/vehicle_service/VehicleSimulator.h \
  /usr/include/c++/13/thread /usr/include/c++/13/bits/std_thread.h \
  /usr/include/c++/13/bits/this_thread_sleep.h /usr/include/c++/13/atomic \
- /home/azulf/Dev/BMW_Project/services/vehicle_service/VehicleData.h
+ /home/vboxuser/Dev/Infotainment-System/services/vehicle_service/VehicleData.h

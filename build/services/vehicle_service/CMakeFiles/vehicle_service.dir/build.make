@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/azulf/Dev/BMW_Project
+CMAKE_SOURCE_DIR = /home/vboxuser/Dev/Infotainment-System
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/azulf/Dev/BMW_Project/build
+CMAKE_BINARY_DIR = /home/vboxuser/Dev/Infotainment-System/build
 
 # Include any dependencies generated for this target.
 include services/vehicle_service/CMakeFiles/vehicle_service.dir/depend.make
@@ -70,46 +70,46 @@ include services/vehicle_service/CMakeFiles/vehicle_service.dir/progress.make
 include services/vehicle_service/CMakeFiles/vehicle_service.dir/flags.make
 
 services/vehicle_service/CMakeFiles/vehicle_service.dir/main.cpp.o: services/vehicle_service/CMakeFiles/vehicle_service.dir/flags.make
-services/vehicle_service/CMakeFiles/vehicle_service.dir/main.cpp.o: /home/azulf/Dev/BMW_Project/services/vehicle_service/main.cpp
+services/vehicle_service/CMakeFiles/vehicle_service.dir/main.cpp.o: /home/vboxuser/Dev/Infotainment-System/services/vehicle_service/main.cpp
 services/vehicle_service/CMakeFiles/vehicle_service.dir/main.cpp.o: services/vehicle_service/CMakeFiles/vehicle_service.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/azulf/Dev/BMW_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object services/vehicle_service/CMakeFiles/vehicle_service.dir/main.cpp.o"
-	cd /home/azulf/Dev/BMW_Project/build/services/vehicle_service && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT services/vehicle_service/CMakeFiles/vehicle_service.dir/main.cpp.o -MF CMakeFiles/vehicle_service.dir/main.cpp.o.d -o CMakeFiles/vehicle_service.dir/main.cpp.o -c /home/azulf/Dev/BMW_Project/services/vehicle_service/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Dev/Infotainment-System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object services/vehicle_service/CMakeFiles/vehicle_service.dir/main.cpp.o"
+	cd /home/vboxuser/Dev/Infotainment-System/build/services/vehicle_service && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT services/vehicle_service/CMakeFiles/vehicle_service.dir/main.cpp.o -MF CMakeFiles/vehicle_service.dir/main.cpp.o.d -o CMakeFiles/vehicle_service.dir/main.cpp.o -c /home/vboxuser/Dev/Infotainment-System/services/vehicle_service/main.cpp
 
 services/vehicle_service/CMakeFiles/vehicle_service.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vehicle_service.dir/main.cpp.i"
-	cd /home/azulf/Dev/BMW_Project/build/services/vehicle_service && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/azulf/Dev/BMW_Project/services/vehicle_service/main.cpp > CMakeFiles/vehicle_service.dir/main.cpp.i
+	cd /home/vboxuser/Dev/Infotainment-System/build/services/vehicle_service && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vboxuser/Dev/Infotainment-System/services/vehicle_service/main.cpp > CMakeFiles/vehicle_service.dir/main.cpp.i
 
 services/vehicle_service/CMakeFiles/vehicle_service.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vehicle_service.dir/main.cpp.s"
-	cd /home/azulf/Dev/BMW_Project/build/services/vehicle_service && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/azulf/Dev/BMW_Project/services/vehicle_service/main.cpp -o CMakeFiles/vehicle_service.dir/main.cpp.s
+	cd /home/vboxuser/Dev/Infotainment-System/build/services/vehicle_service && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/Dev/Infotainment-System/services/vehicle_service/main.cpp -o CMakeFiles/vehicle_service.dir/main.cpp.s
 
 services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleService.cpp.o: services/vehicle_service/CMakeFiles/vehicle_service.dir/flags.make
-services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleService.cpp.o: /home/azulf/Dev/BMW_Project/services/vehicle_service/VehicleService.cpp
+services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleService.cpp.o: /home/vboxuser/Dev/Infotainment-System/services/vehicle_service/VehicleService.cpp
 services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleService.cpp.o: services/vehicle_service/CMakeFiles/vehicle_service.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/azulf/Dev/BMW_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleService.cpp.o"
-	cd /home/azulf/Dev/BMW_Project/build/services/vehicle_service && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleService.cpp.o -MF CMakeFiles/vehicle_service.dir/VehicleService.cpp.o.d -o CMakeFiles/vehicle_service.dir/VehicleService.cpp.o -c /home/azulf/Dev/BMW_Project/services/vehicle_service/VehicleService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Dev/Infotainment-System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleService.cpp.o"
+	cd /home/vboxuser/Dev/Infotainment-System/build/services/vehicle_service && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleService.cpp.o -MF CMakeFiles/vehicle_service.dir/VehicleService.cpp.o.d -o CMakeFiles/vehicle_service.dir/VehicleService.cpp.o -c /home/vboxuser/Dev/Infotainment-System/services/vehicle_service/VehicleService.cpp
 
 services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vehicle_service.dir/VehicleService.cpp.i"
-	cd /home/azulf/Dev/BMW_Project/build/services/vehicle_service && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/azulf/Dev/BMW_Project/services/vehicle_service/VehicleService.cpp > CMakeFiles/vehicle_service.dir/VehicleService.cpp.i
+	cd /home/vboxuser/Dev/Infotainment-System/build/services/vehicle_service && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vboxuser/Dev/Infotainment-System/services/vehicle_service/VehicleService.cpp > CMakeFiles/vehicle_service.dir/VehicleService.cpp.i
 
 services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vehicle_service.dir/VehicleService.cpp.s"
-	cd /home/azulf/Dev/BMW_Project/build/services/vehicle_service && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/azulf/Dev/BMW_Project/services/vehicle_service/VehicleService.cpp -o CMakeFiles/vehicle_service.dir/VehicleService.cpp.s
+	cd /home/vboxuser/Dev/Infotainment-System/build/services/vehicle_service && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/Dev/Infotainment-System/services/vehicle_service/VehicleService.cpp -o CMakeFiles/vehicle_service.dir/VehicleService.cpp.s
 
 services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleSimulator.cpp.o: services/vehicle_service/CMakeFiles/vehicle_service.dir/flags.make
-services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleSimulator.cpp.o: /home/azulf/Dev/BMW_Project/services/vehicle_service/VehicleSimulator.cpp
+services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleSimulator.cpp.o: /home/vboxuser/Dev/Infotainment-System/services/vehicle_service/VehicleSimulator.cpp
 services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleSimulator.cpp.o: services/vehicle_service/CMakeFiles/vehicle_service.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/azulf/Dev/BMW_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleSimulator.cpp.o"
-	cd /home/azulf/Dev/BMW_Project/build/services/vehicle_service && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleSimulator.cpp.o -MF CMakeFiles/vehicle_service.dir/VehicleSimulator.cpp.o.d -o CMakeFiles/vehicle_service.dir/VehicleSimulator.cpp.o -c /home/azulf/Dev/BMW_Project/services/vehicle_service/VehicleSimulator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Dev/Infotainment-System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleSimulator.cpp.o"
+	cd /home/vboxuser/Dev/Infotainment-System/build/services/vehicle_service && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleSimulator.cpp.o -MF CMakeFiles/vehicle_service.dir/VehicleSimulator.cpp.o.d -o CMakeFiles/vehicle_service.dir/VehicleSimulator.cpp.o -c /home/vboxuser/Dev/Infotainment-System/services/vehicle_service/VehicleSimulator.cpp
 
 services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleSimulator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vehicle_service.dir/VehicleSimulator.cpp.i"
-	cd /home/azulf/Dev/BMW_Project/build/services/vehicle_service && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/azulf/Dev/BMW_Project/services/vehicle_service/VehicleSimulator.cpp > CMakeFiles/vehicle_service.dir/VehicleSimulator.cpp.i
+	cd /home/vboxuser/Dev/Infotainment-System/build/services/vehicle_service && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vboxuser/Dev/Infotainment-System/services/vehicle_service/VehicleSimulator.cpp > CMakeFiles/vehicle_service.dir/VehicleSimulator.cpp.i
 
 services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleSimulator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vehicle_service.dir/VehicleSimulator.cpp.s"
-	cd /home/azulf/Dev/BMW_Project/build/services/vehicle_service && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/azulf/Dev/BMW_Project/services/vehicle_service/VehicleSimulator.cpp -o CMakeFiles/vehicle_service.dir/VehicleSimulator.cpp.s
+	cd /home/vboxuser/Dev/Infotainment-System/build/services/vehicle_service && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/Dev/Infotainment-System/services/vehicle_service/VehicleSimulator.cpp -o CMakeFiles/vehicle_service.dir/VehicleSimulator.cpp.s
 
 # Object files for target vehicle_service
 vehicle_service_OBJECTS = \
@@ -126,18 +126,18 @@ services/vehicle_service/vehicle_service: services/vehicle_service/CMakeFiles/ve
 services/vehicle_service/vehicle_service: services/vehicle_service/CMakeFiles/vehicle_service.dir/build.make
 services/vehicle_service/vehicle_service: common/libcommon.a
 services/vehicle_service/vehicle_service: services/vehicle_service/CMakeFiles/vehicle_service.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/azulf/Dev/BMW_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable vehicle_service"
-	cd /home/azulf/Dev/BMW_Project/build/services/vehicle_service && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vehicle_service.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/vboxuser/Dev/Infotainment-System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable vehicle_service"
+	cd /home/vboxuser/Dev/Infotainment-System/build/services/vehicle_service && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vehicle_service.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 services/vehicle_service/CMakeFiles/vehicle_service.dir/build: services/vehicle_service/vehicle_service
 .PHONY : services/vehicle_service/CMakeFiles/vehicle_service.dir/build
 
 services/vehicle_service/CMakeFiles/vehicle_service.dir/clean:
-	cd /home/azulf/Dev/BMW_Project/build/services/vehicle_service && $(CMAKE_COMMAND) -P CMakeFiles/vehicle_service.dir/cmake_clean.cmake
+	cd /home/vboxuser/Dev/Infotainment-System/build/services/vehicle_service && $(CMAKE_COMMAND) -P CMakeFiles/vehicle_service.dir/cmake_clean.cmake
 .PHONY : services/vehicle_service/CMakeFiles/vehicle_service.dir/clean
 
 services/vehicle_service/CMakeFiles/vehicle_service.dir/depend:
-	cd /home/azulf/Dev/BMW_Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/azulf/Dev/BMW_Project /home/azulf/Dev/BMW_Project/services/vehicle_service /home/azulf/Dev/BMW_Project/build /home/azulf/Dev/BMW_Project/build/services/vehicle_service /home/azulf/Dev/BMW_Project/build/services/vehicle_service/CMakeFiles/vehicle_service.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Dev/Infotainment-System /home/vboxuser/Dev/Infotainment-System/services/vehicle_service /home/vboxuser/Dev/Infotainment-System/build /home/vboxuser/Dev/Infotainment-System/build/services/vehicle_service /home/vboxuser/Dev/Infotainment-System/build/services/vehicle_service/CMakeFiles/vehicle_service.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : services/vehicle_service/CMakeFiles/vehicle_service.dir/depend
 

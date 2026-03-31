@@ -1,4 +1,4 @@
-# Install script for directory: /home/azulf/Dev/BMW_Project/services/diagnostics_service
+# Install script for directory: /home/vboxuser/Dev/Infotainment-System/services/diagnostics_service
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

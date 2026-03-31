@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/azulf/Dev/BMW_Project
+CMAKE_SOURCE_DIR = /home/vboxuser/Dev/Infotainment-System
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/azulf/Dev/BMW_Project/build
+CMAKE_BINARY_DIR = /home/vboxuser/Dev/Infotainment-System/build
 
 # Include any dependencies generated for this target.
 include common/CMakeFiles/common.dir/depend.make
@@ -70,60 +70,60 @@ include common/CMakeFiles/common.dir/progress.make
 include common/CMakeFiles/common.dir/flags.make
 
 common/CMakeFiles/common.dir/logger/Logger.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/logger/Logger.cpp.o: /home/azulf/Dev/BMW_Project/common/logger/Logger.cpp
+common/CMakeFiles/common.dir/logger/Logger.cpp.o: /home/vboxuser/Dev/Infotainment-System/common/logger/Logger.cpp
 common/CMakeFiles/common.dir/logger/Logger.cpp.o: common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/azulf/Dev/BMW_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object common/CMakeFiles/common.dir/logger/Logger.cpp.o"
-	cd /home/azulf/Dev/BMW_Project/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/logger/Logger.cpp.o -MF CMakeFiles/common.dir/logger/Logger.cpp.o.d -o CMakeFiles/common.dir/logger/Logger.cpp.o -c /home/azulf/Dev/BMW_Project/common/logger/Logger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Dev/Infotainment-System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object common/CMakeFiles/common.dir/logger/Logger.cpp.o"
+	cd /home/vboxuser/Dev/Infotainment-System/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/logger/Logger.cpp.o -MF CMakeFiles/common.dir/logger/Logger.cpp.o.d -o CMakeFiles/common.dir/logger/Logger.cpp.o -c /home/vboxuser/Dev/Infotainment-System/common/logger/Logger.cpp
 
 common/CMakeFiles/common.dir/logger/Logger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/common.dir/logger/Logger.cpp.i"
-	cd /home/azulf/Dev/BMW_Project/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/azulf/Dev/BMW_Project/common/logger/Logger.cpp > CMakeFiles/common.dir/logger/Logger.cpp.i
+	cd /home/vboxuser/Dev/Infotainment-System/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vboxuser/Dev/Infotainment-System/common/logger/Logger.cpp > CMakeFiles/common.dir/logger/Logger.cpp.i
 
 common/CMakeFiles/common.dir/logger/Logger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/common.dir/logger/Logger.cpp.s"
-	cd /home/azulf/Dev/BMW_Project/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/azulf/Dev/BMW_Project/common/logger/Logger.cpp -o CMakeFiles/common.dir/logger/Logger.cpp.s
+	cd /home/vboxuser/Dev/Infotainment-System/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/Dev/Infotainment-System/common/logger/Logger.cpp -o CMakeFiles/common.dir/logger/Logger.cpp.s
 
 common/CMakeFiles/common.dir/config/ConfigLoader.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/config/ConfigLoader.cpp.o: /home/azulf/Dev/BMW_Project/common/config/ConfigLoader.cpp
+common/CMakeFiles/common.dir/config/ConfigLoader.cpp.o: /home/vboxuser/Dev/Infotainment-System/common/config/ConfigLoader.cpp
 common/CMakeFiles/common.dir/config/ConfigLoader.cpp.o: common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/azulf/Dev/BMW_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object common/CMakeFiles/common.dir/config/ConfigLoader.cpp.o"
-	cd /home/azulf/Dev/BMW_Project/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/config/ConfigLoader.cpp.o -MF CMakeFiles/common.dir/config/ConfigLoader.cpp.o.d -o CMakeFiles/common.dir/config/ConfigLoader.cpp.o -c /home/azulf/Dev/BMW_Project/common/config/ConfigLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Dev/Infotainment-System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object common/CMakeFiles/common.dir/config/ConfigLoader.cpp.o"
+	cd /home/vboxuser/Dev/Infotainment-System/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/config/ConfigLoader.cpp.o -MF CMakeFiles/common.dir/config/ConfigLoader.cpp.o.d -o CMakeFiles/common.dir/config/ConfigLoader.cpp.o -c /home/vboxuser/Dev/Infotainment-System/common/config/ConfigLoader.cpp
 
 common/CMakeFiles/common.dir/config/ConfigLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/common.dir/config/ConfigLoader.cpp.i"
-	cd /home/azulf/Dev/BMW_Project/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/azulf/Dev/BMW_Project/common/config/ConfigLoader.cpp > CMakeFiles/common.dir/config/ConfigLoader.cpp.i
+	cd /home/vboxuser/Dev/Infotainment-System/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vboxuser/Dev/Infotainment-System/common/config/ConfigLoader.cpp > CMakeFiles/common.dir/config/ConfigLoader.cpp.i
 
 common/CMakeFiles/common.dir/config/ConfigLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/common.dir/config/ConfigLoader.cpp.s"
-	cd /home/azulf/Dev/BMW_Project/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/azulf/Dev/BMW_Project/common/config/ConfigLoader.cpp -o CMakeFiles/common.dir/config/ConfigLoader.cpp.s
+	cd /home/vboxuser/Dev/Infotainment-System/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/Dev/Infotainment-System/common/config/ConfigLoader.cpp -o CMakeFiles/common.dir/config/ConfigLoader.cpp.s
 
 common/CMakeFiles/common.dir/ipc/TcpServer.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/ipc/TcpServer.cpp.o: /home/azulf/Dev/BMW_Project/common/ipc/TcpServer.cpp
+common/CMakeFiles/common.dir/ipc/TcpServer.cpp.o: /home/vboxuser/Dev/Infotainment-System/common/ipc/TcpServer.cpp
 common/CMakeFiles/common.dir/ipc/TcpServer.cpp.o: common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/azulf/Dev/BMW_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object common/CMakeFiles/common.dir/ipc/TcpServer.cpp.o"
-	cd /home/azulf/Dev/BMW_Project/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/ipc/TcpServer.cpp.o -MF CMakeFiles/common.dir/ipc/TcpServer.cpp.o.d -o CMakeFiles/common.dir/ipc/TcpServer.cpp.o -c /home/azulf/Dev/BMW_Project/common/ipc/TcpServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Dev/Infotainment-System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object common/CMakeFiles/common.dir/ipc/TcpServer.cpp.o"
+	cd /home/vboxuser/Dev/Infotainment-System/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/ipc/TcpServer.cpp.o -MF CMakeFiles/common.dir/ipc/TcpServer.cpp.o.d -o CMakeFiles/common.dir/ipc/TcpServer.cpp.o -c /home/vboxuser/Dev/Infotainment-System/common/ipc/TcpServer.cpp
 
 common/CMakeFiles/common.dir/ipc/TcpServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/common.dir/ipc/TcpServer.cpp.i"
-	cd /home/azulf/Dev/BMW_Project/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/azulf/Dev/BMW_Project/common/ipc/TcpServer.cpp > CMakeFiles/common.dir/ipc/TcpServer.cpp.i
+	cd /home/vboxuser/Dev/Infotainment-System/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vboxuser/Dev/Infotainment-System/common/ipc/TcpServer.cpp > CMakeFiles/common.dir/ipc/TcpServer.cpp.i
 
 common/CMakeFiles/common.dir/ipc/TcpServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/common.dir/ipc/TcpServer.cpp.s"
-	cd /home/azulf/Dev/BMW_Project/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/azulf/Dev/BMW_Project/common/ipc/TcpServer.cpp -o CMakeFiles/common.dir/ipc/TcpServer.cpp.s
+	cd /home/vboxuser/Dev/Infotainment-System/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/Dev/Infotainment-System/common/ipc/TcpServer.cpp -o CMakeFiles/common.dir/ipc/TcpServer.cpp.s
 
 common/CMakeFiles/common.dir/ipc/TcpClient.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/ipc/TcpClient.cpp.o: /home/azulf/Dev/BMW_Project/common/ipc/TcpClient.cpp
+common/CMakeFiles/common.dir/ipc/TcpClient.cpp.o: /home/vboxuser/Dev/Infotainment-System/common/ipc/TcpClient.cpp
 common/CMakeFiles/common.dir/ipc/TcpClient.cpp.o: common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/azulf/Dev/BMW_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object common/CMakeFiles/common.dir/ipc/TcpClient.cpp.o"
-	cd /home/azulf/Dev/BMW_Project/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/ipc/TcpClient.cpp.o -MF CMakeFiles/common.dir/ipc/TcpClient.cpp.o.d -o CMakeFiles/common.dir/ipc/TcpClient.cpp.o -c /home/azulf/Dev/BMW_Project/common/ipc/TcpClient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/Dev/Infotainment-System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object common/CMakeFiles/common.dir/ipc/TcpClient.cpp.o"
+	cd /home/vboxuser/Dev/Infotainment-System/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/ipc/TcpClient.cpp.o -MF CMakeFiles/common.dir/ipc/TcpClient.cpp.o.d -o CMakeFiles/common.dir/ipc/TcpClient.cpp.o -c /home/vboxuser/Dev/Infotainment-System/common/ipc/TcpClient.cpp
 
 common/CMakeFiles/common.dir/ipc/TcpClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/common.dir/ipc/TcpClient.cpp.i"
-	cd /home/azulf/Dev/BMW_Project/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/azulf/Dev/BMW_Project/common/ipc/TcpClient.cpp > CMakeFiles/common.dir/ipc/TcpClient.cpp.i
+	cd /home/vboxuser/Dev/Infotainment-System/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vboxuser/Dev/Infotainment-System/common/ipc/TcpClient.cpp > CMakeFiles/common.dir/ipc/TcpClient.cpp.i
 
 common/CMakeFiles/common.dir/ipc/TcpClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/common.dir/ipc/TcpClient.cpp.s"
-	cd /home/azulf/Dev/BMW_Project/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/azulf/Dev/BMW_Project/common/ipc/TcpClient.cpp -o CMakeFiles/common.dir/ipc/TcpClient.cpp.s
+	cd /home/vboxuser/Dev/Infotainment-System/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/Dev/Infotainment-System/common/ipc/TcpClient.cpp -o CMakeFiles/common.dir/ipc/TcpClient.cpp.s
 
 # Object files for target common
 common_OBJECTS = \
@@ -141,19 +141,19 @@ common/libcommon.a: common/CMakeFiles/common.dir/ipc/TcpServer.cpp.o
 common/libcommon.a: common/CMakeFiles/common.dir/ipc/TcpClient.cpp.o
 common/libcommon.a: common/CMakeFiles/common.dir/build.make
 common/libcommon.a: common/CMakeFiles/common.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/azulf/Dev/BMW_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libcommon.a"
-	cd /home/azulf/Dev/BMW_Project/build/common && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean_target.cmake
-	cd /home/azulf/Dev/BMW_Project/build/common && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/common.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/vboxuser/Dev/Infotainment-System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libcommon.a"
+	cd /home/vboxuser/Dev/Infotainment-System/build/common && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean_target.cmake
+	cd /home/vboxuser/Dev/Infotainment-System/build/common && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/common.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 common/CMakeFiles/common.dir/build: common/libcommon.a
 .PHONY : common/CMakeFiles/common.dir/build
 
 common/CMakeFiles/common.dir/clean:
-	cd /home/azulf/Dev/BMW_Project/build/common && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean.cmake
+	cd /home/vboxuser/Dev/Infotainment-System/build/common && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean.cmake
 .PHONY : common/CMakeFiles/common.dir/clean
 
 common/CMakeFiles/common.dir/depend:
-	cd /home/azulf/Dev/BMW_Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/azulf/Dev/BMW_Project /home/azulf/Dev/BMW_Project/common /home/azulf/Dev/BMW_Project/build /home/azulf/Dev/BMW_Project/build/common /home/azulf/Dev/BMW_Project/build/common/CMakeFiles/common.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Dev/Infotainment-System /home/vboxuser/Dev/Infotainment-System/common /home/vboxuser/Dev/Infotainment-System/build /home/vboxuser/Dev/Infotainment-System/build/common /home/vboxuser/Dev/Infotainment-System/build/common/CMakeFiles/common.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : common/CMakeFiles/common.dir/depend
 

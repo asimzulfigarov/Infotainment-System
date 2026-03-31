@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/azulf/Dev/BMW_Project
+CMAKE_SOURCE_DIR = /home/vboxuser/Dev/Infotainment-System
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/azulf/Dev/BMW_Project/build
+CMAKE_BINARY_DIR = /home/vboxuser/Dev/Infotainment-System/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/azulf/Dev/BMW_Project/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/azulf/Dev/BMW_Project/build/CMakeFiles /home/azulf/Dev/BMW_Project/build/common//CMakeFiles/progress.marks
-	cd /home/azulf/Dev/BMW_Project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/azulf/Dev/BMW_Project/build/CMakeFiles 0
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Dev/Infotainment-System/build/CMakeFiles /home/vboxuser/Dev/Infotainment-System/build/common//CMakeFiles/progress.marks
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Dev/Infotainment-System/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/azulf/Dev/BMW_Project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/clean
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/azulf/Dev/BMW_Project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/preinstall
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/azulf/Dev/BMW_Project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/preinstall
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/azulf/Dev/BMW_Project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 common/CMakeFiles/common.dir/rule:
-	cd /home/azulf/Dev/BMW_Project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/CMakeFiles/common.dir/rule
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/CMakeFiles/common.dir/rule
 .PHONY : common/CMakeFiles/common.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ common: common/CMakeFiles/common.dir/rule
 
 # fast build rule for target.
 common/fast:
-	cd /home/azulf/Dev/BMW_Project/build && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/build
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/build
 .PHONY : common/fast
 
 config/ConfigLoader.o: config/ConfigLoader.cpp.o
@@ -135,7 +135,7 @@ config/ConfigLoader.o: config/ConfigLoader.cpp.o
 
 # target to build an object file
 config/ConfigLoader.cpp.o:
-	cd /home/azulf/Dev/BMW_Project/build && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/config/ConfigLoader.cpp.o
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/config/ConfigLoader.cpp.o
 .PHONY : config/ConfigLoader.cpp.o
 
 config/ConfigLoader.i: config/ConfigLoader.cpp.i
@@ -143,7 +143,7 @@ config/ConfigLoader.i: config/ConfigLoader.cpp.i
 
 # target to preprocess a source file
 config/ConfigLoader.cpp.i:
-	cd /home/azulf/Dev/BMW_Project/build && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/config/ConfigLoader.cpp.i
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/config/ConfigLoader.cpp.i
 .PHONY : config/ConfigLoader.cpp.i
 
 config/ConfigLoader.s: config/ConfigLoader.cpp.s
@@ -151,7 +151,7 @@ config/ConfigLoader.s: config/ConfigLoader.cpp.s
 
 # target to generate assembly for a file
 config/ConfigLoader.cpp.s:
-	cd /home/azulf/Dev/BMW_Project/build && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/config/ConfigLoader.cpp.s
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/config/ConfigLoader.cpp.s
 .PHONY : config/ConfigLoader.cpp.s
 
 ipc/TcpClient.o: ipc/TcpClient.cpp.o
@@ -159,7 +159,7 @@ ipc/TcpClient.o: ipc/TcpClient.cpp.o
 
 # target to build an object file
 ipc/TcpClient.cpp.o:
-	cd /home/azulf/Dev/BMW_Project/build && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/ipc/TcpClient.cpp.o
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/ipc/TcpClient.cpp.o
 .PHONY : ipc/TcpClient.cpp.o
 
 ipc/TcpClient.i: ipc/TcpClient.cpp.i
@@ -167,7 +167,7 @@ ipc/TcpClient.i: ipc/TcpClient.cpp.i
 
 # target to preprocess a source file
 ipc/TcpClient.cpp.i:
-	cd /home/azulf/Dev/BMW_Project/build && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/ipc/TcpClient.cpp.i
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/ipc/TcpClient.cpp.i
 .PHONY : ipc/TcpClient.cpp.i
 
 ipc/TcpClient.s: ipc/TcpClient.cpp.s
@@ -175,7 +175,7 @@ ipc/TcpClient.s: ipc/TcpClient.cpp.s
 
 # target to generate assembly for a file
 ipc/TcpClient.cpp.s:
-	cd /home/azulf/Dev/BMW_Project/build && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/ipc/TcpClient.cpp.s
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/ipc/TcpClient.cpp.s
 .PHONY : ipc/TcpClient.cpp.s
 
 ipc/TcpServer.o: ipc/TcpServer.cpp.o
@@ -183,7 +183,7 @@ ipc/TcpServer.o: ipc/TcpServer.cpp.o
 
 # target to build an object file
 ipc/TcpServer.cpp.o:
-	cd /home/azulf/Dev/BMW_Project/build && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/ipc/TcpServer.cpp.o
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/ipc/TcpServer.cpp.o
 .PHONY : ipc/TcpServer.cpp.o
 
 ipc/TcpServer.i: ipc/TcpServer.cpp.i
@@ -191,7 +191,7 @@ ipc/TcpServer.i: ipc/TcpServer.cpp.i
 
 # target to preprocess a source file
 ipc/TcpServer.cpp.i:
-	cd /home/azulf/Dev/BMW_Project/build && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/ipc/TcpServer.cpp.i
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/ipc/TcpServer.cpp.i
 .PHONY : ipc/TcpServer.cpp.i
 
 ipc/TcpServer.s: ipc/TcpServer.cpp.s
@@ -199,7 +199,7 @@ ipc/TcpServer.s: ipc/TcpServer.cpp.s
 
 # target to generate assembly for a file
 ipc/TcpServer.cpp.s:
-	cd /home/azulf/Dev/BMW_Project/build && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/ipc/TcpServer.cpp.s
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/ipc/TcpServer.cpp.s
 .PHONY : ipc/TcpServer.cpp.s
 
 logger/Logger.o: logger/Logger.cpp.o
@@ -207,7 +207,7 @@ logger/Logger.o: logger/Logger.cpp.o
 
 # target to build an object file
 logger/Logger.cpp.o:
-	cd /home/azulf/Dev/BMW_Project/build && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/logger/Logger.cpp.o
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/logger/Logger.cpp.o
 .PHONY : logger/Logger.cpp.o
 
 logger/Logger.i: logger/Logger.cpp.i
@@ -215,7 +215,7 @@ logger/Logger.i: logger/Logger.cpp.i
 
 # target to preprocess a source file
 logger/Logger.cpp.i:
-	cd /home/azulf/Dev/BMW_Project/build && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/logger/Logger.cpp.i
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/logger/Logger.cpp.i
 .PHONY : logger/Logger.cpp.i
 
 logger/Logger.s: logger/Logger.cpp.s
@@ -223,7 +223,7 @@ logger/Logger.s: logger/Logger.cpp.s
 
 # target to generate assembly for a file
 logger/Logger.cpp.s:
-	cd /home/azulf/Dev/BMW_Project/build && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/logger/Logger.cpp.s
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/logger/Logger.cpp.s
 .PHONY : logger/Logger.cpp.s
 
 # Help Target
@@ -258,6 +258,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/azulf/Dev/BMW_Project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

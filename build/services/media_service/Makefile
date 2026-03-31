@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/azulf/Dev/BMW_Project
+CMAKE_SOURCE_DIR = /home/vboxuser/Dev/Infotainment-System
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/azulf/Dev/BMW_Project/build
+CMAKE_BINARY_DIR = /home/vboxuser/Dev/Infotainment-System/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/azulf/Dev/BMW_Project/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/azulf/Dev/BMW_Project/build/CMakeFiles /home/azulf/Dev/BMW_Project/build/services/media_service//CMakeFiles/progress.marks
-	cd /home/azulf/Dev/BMW_Project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 services/media_service/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/azulf/Dev/BMW_Project/build/CMakeFiles 0
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Dev/Infotainment-System/build/CMakeFiles /home/vboxuser/Dev/Infotainment-System/build/services/media_service//CMakeFiles/progress.marks
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 services/media_service/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Dev/Infotainment-System/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/azulf/Dev/BMW_Project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 services/media_service/clean
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 services/media_service/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,17 +103,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/azulf/Dev/BMW_Project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 services/media_service/preinstall
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 services/media_service/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/azulf/Dev/BMW_Project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 services/media_service/preinstall
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 services/media_service/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/azulf/Dev/BMW_Project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -135,6 +135,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/azulf/Dev/BMW_Project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

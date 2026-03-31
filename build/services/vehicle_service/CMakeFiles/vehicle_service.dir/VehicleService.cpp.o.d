@@ -1,8 +1,8 @@
 services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleService.cpp.o: \
- /home/azulf/Dev/BMW_Project/services/vehicle_service/VehicleService.cpp \
+ /home/vboxuser/Dev/Infotainment-System/services/vehicle_service/VehicleService.cpp \
  /usr/include/stdc-predef.h \
- /home/azulf/Dev/BMW_Project/services/vehicle_service/VehicleService.h \
- /home/azulf/Dev/BMW_Project/services/vehicle_service/VehicleSimulator.h \
+ /home/vboxuser/Dev/Infotainment-System/services/vehicle_service/VehicleService.h \
+ /home/vboxuser/Dev/Infotainment-System/services/vehicle_service/VehicleSimulator.h \
  /usr/include/c++/13/thread /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -105,8 +105,8 @@ services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleService.cpp.o: \
  /usr/include/c++/13/ext/atomicity.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
- /home/azulf/Dev/BMW_Project/services/vehicle_service/VehicleData.h \
- /home/azulf/Dev/BMW_Project/common/config/ConfigLoader.h \
+ /home/vboxuser/Dev/Infotainment-System/services/vehicle_service/VehicleData.h \
+ /home/vboxuser/Dev/Infotainment-System/common/config/ConfigLoader.h \
  /usr/include/c++/13/string /usr/include/c++/13/bits/char_traits.h \
  /usr/include/c++/13/bits/allocator.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
@@ -298,4 +298,4 @@ services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleService.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc \
- /home/azulf/Dev/BMW_Project/common/logger/Logger.h
+ /home/vboxuser/Dev/Infotainment-System/common/logger/Logger.h

@@ -1,4 +1,4 @@
-# Install script for directory: /home/azulf/Dev/BMW_Project
+# Install script for directory: /home/vboxuser/Dev/Infotainment-System
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,27 +44,27 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/azulf/Dev/BMW_Project/build/common/cmake_install.cmake")
+  include("/home/vboxuser/Dev/Infotainment-System/build/common/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/azulf/Dev/BMW_Project/build/services/vehicle_service/cmake_install.cmake")
+  include("/home/vboxuser/Dev/Infotainment-System/build/services/vehicle_service/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/azulf/Dev/BMW_Project/build/services/system_controller/cmake_install.cmake")
+  include("/home/vboxuser/Dev/Infotainment-System/build/services/system_controller/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/azulf/Dev/BMW_Project/build/services/media_service/cmake_install.cmake")
+  include("/home/vboxuser/Dev/Infotainment-System/build/services/media_service/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/azulf/Dev/BMW_Project/build/services/diagnostics_service/cmake_install.cmake")
+  include("/home/vboxuser/Dev/Infotainment-System/build/services/diagnostics_service/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -75,5 +75,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/azulf/Dev/BMW_Project/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/vboxuser/Dev/Infotainment-System/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/azulf/Dev/BMW_Project/common
+CXX_INCLUDES = -I/home/vboxuser/Dev/Infotainment-System/common
 
 CXX_FLAGS = 
 

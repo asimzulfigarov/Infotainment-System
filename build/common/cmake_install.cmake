@@ -1,4 +1,4 @@
-# Install script for directory: /home/azulf/Dev/BMW_Project/common
+# Install script for directory: /home/vboxuser/Dev/Infotainment-System/common
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
