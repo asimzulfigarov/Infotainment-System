@@ -116,6 +116,44 @@ depend:
 	cd /home/vboxuser/Dev/Infotainment-System/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+services/system_controller/CMakeFiles/system_controller.dir/rule:
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 services/system_controller/CMakeFiles/system_controller.dir/rule
+.PHONY : services/system_controller/CMakeFiles/system_controller.dir/rule
+
+# Convenience name for target.
+system_controller: services/system_controller/CMakeFiles/system_controller.dir/rule
+.PHONY : system_controller
+
+# fast build rule for target.
+system_controller/fast:
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f services/system_controller/CMakeFiles/system_controller.dir/build.make services/system_controller/CMakeFiles/system_controller.dir/build
+.PHONY : system_controller/fast
+
+main.o: main.cpp.o
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f services/system_controller/CMakeFiles/system_controller.dir/build.make services/system_controller/CMakeFiles/system_controller.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f services/system_controller/CMakeFiles/system_controller.dir/build.make services/system_controller/CMakeFiles/system_controller.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f services/system_controller/CMakeFiles/system_controller.dir/build.make services/system_controller/CMakeFiles/system_controller.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -124,6 +162,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... system_controller"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

@@ -33,7 +33,7 @@ void VehicleSimulator::run(){
         if (m_data.engineTemperature > 120.0f)
             m_data.engineTemperature = 120.0f;
 
-            std::this_thread::sleep_for(std::chrono::seconds(m_interval)); // temp
+            
     }
     std::this_thread::sleep_for(std::chrono::seconds(m_interval)); // temp
 }

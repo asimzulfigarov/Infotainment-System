@@ -142,6 +142,19 @@ vehicle_service/fast:
 	$(MAKE) $(MAKESILENT) -f services/vehicle_service/CMakeFiles/vehicle_service.dir/build.make services/vehicle_service/CMakeFiles/vehicle_service.dir/build
 .PHONY : vehicle_service/fast
 
+#=============================================================================
+# Target rules for targets named system_controller
+
+# Build rule for target.
+system_controller: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 system_controller
+.PHONY : system_controller
+
+# fast build rule for target.
+system_controller/fast:
+	$(MAKE) $(MAKESILENT) -f services/system_controller/CMakeFiles/system_controller.dir/build.make services/system_controller/CMakeFiles/system_controller.dir/build
+.PHONY : system_controller/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -151,6 +164,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... common"
+	@echo "... system_controller"
 	@echo "... vehicle_service"
 .PHONY : help
 

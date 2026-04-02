@@ -6,6 +6,7 @@
 /home/vboxuser/Dev/Infotainment-System/build/services/vehicle_service/CMakeFiles/vehicle_service.dir
 /home/vboxuser/Dev/Infotainment-System/build/services/vehicle_service/CMakeFiles/edit_cache.dir
 /home/vboxuser/Dev/Infotainment-System/build/services/vehicle_service/CMakeFiles/rebuild_cache.dir
+/home/vboxuser/Dev/Infotainment-System/build/services/system_controller/CMakeFiles/system_controller.dir
 /home/vboxuser/Dev/Infotainment-System/build/services/system_controller/CMakeFiles/edit_cache.dir
 /home/vboxuser/Dev/Infotainment-System/build/services/system_controller/CMakeFiles/rebuild_cache.dir
 /home/vboxuser/Dev/Infotainment-System/build/services/media_service/CMakeFiles/edit_cache.dir

@@ -1,0 +1,3 @@
+add_executable(system_controller main.cpp)
+
+target_link_libraries(system_controller common)

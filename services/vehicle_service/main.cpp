@@ -2,6 +2,7 @@
 #include "logger/Logger.h"
 #include "config/ConfigLoader.h"
 #include "VehicleService.h"
+#include "ipc/TcpServer.h"
 
 void init(ConfigLoader& config){            //helper function to init the service
 config.loadFromFile("../../../configs/configs.json");
@@ -18,6 +19,9 @@ config.loadFromFile("../../../configs/configs.json");
 }
 
 int main(){
+
+        TcpServer server(54000);
+        server.start();
 
     ConfigLoader config;
     init(config);
