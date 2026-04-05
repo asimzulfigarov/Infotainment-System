@@ -3,10 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/vehicle_service.dir/VehicleService.cpp.o.d"
   "CMakeFiles/vehicle_service.dir/VehicleSimulator.cpp.o"
   "CMakeFiles/vehicle_service.dir/VehicleSimulator.cpp.o.d"
-  "CMakeFiles/vehicle_service.dir/main.cpp.o"
-  "CMakeFiles/vehicle_service.dir/main.cpp.o.d"
-  "vehicle_service"
-  "vehicle_service.pdb"
+  "libvehicle_service.a"
+  "libvehicle_service.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

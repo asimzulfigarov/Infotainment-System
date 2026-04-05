@@ -299,4 +299,5 @@ services/vehicle_service/CMakeFiles/vehicle_service.dir/main.cpp.o: \
  /usr/include/c++/13/thread /usr/include/c++/13/bits/std_thread.h \
  /usr/include/c++/13/bits/this_thread_sleep.h /usr/include/c++/13/atomic \
  /home/vboxuser/Dev/Infotainment-System/services/vehicle_service/VehicleData.h \
- /home/vboxuser/Dev/Infotainment-System/common/ipc/TcpServer.h
+ /home/vboxuser/Dev/Infotainment-System/common/ipc/TcpServer.h \
+ /home/vboxuser/Dev/Infotainment-System/common/ipc/../command_handler/CommandHandler.h

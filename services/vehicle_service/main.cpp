@@ -20,15 +20,13 @@ config.loadFromFile("../../../configs/configs.json");
 
 int main(){
 
-        TcpServer server(54000);
-        server.start();
+    TcpServer server(54000);
+    server.start();
+    
 
     ConfigLoader config;
     init(config);
     
-
-    Logger::getLogger().log(LogLevel::INFO, "Engine start!");
-    Logger::getLogger().log(LogLevel::WARN, "Carburetor yellow check!");
 
     //start the service
     VehicleService service(config);

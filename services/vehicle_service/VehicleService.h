@@ -9,4 +9,5 @@ class VehicleService{
 public:
     VehicleService(ConfigLoader& config);
     void start();
+    void startEngine();
 };

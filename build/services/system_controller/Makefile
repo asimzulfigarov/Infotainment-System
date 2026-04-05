@@ -130,6 +130,54 @@ system_controller/fast:
 	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f services/system_controller/CMakeFiles/system_controller.dir/build.make services/system_controller/CMakeFiles/system_controller.dir/build
 .PHONY : system_controller/fast
 
+__/diagnostics_service/DiagnosticsService.o: __/diagnostics_service/DiagnosticsService.cpp.o
+.PHONY : __/diagnostics_service/DiagnosticsService.o
+
+# target to build an object file
+__/diagnostics_service/DiagnosticsService.cpp.o:
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f services/system_controller/CMakeFiles/system_controller.dir/build.make services/system_controller/CMakeFiles/system_controller.dir/__/diagnostics_service/DiagnosticsService.cpp.o
+.PHONY : __/diagnostics_service/DiagnosticsService.cpp.o
+
+__/diagnostics_service/DiagnosticsService.i: __/diagnostics_service/DiagnosticsService.cpp.i
+.PHONY : __/diagnostics_service/DiagnosticsService.i
+
+# target to preprocess a source file
+__/diagnostics_service/DiagnosticsService.cpp.i:
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f services/system_controller/CMakeFiles/system_controller.dir/build.make services/system_controller/CMakeFiles/system_controller.dir/__/diagnostics_service/DiagnosticsService.cpp.i
+.PHONY : __/diagnostics_service/DiagnosticsService.cpp.i
+
+__/diagnostics_service/DiagnosticsService.s: __/diagnostics_service/DiagnosticsService.cpp.s
+.PHONY : __/diagnostics_service/DiagnosticsService.s
+
+# target to generate assembly for a file
+__/diagnostics_service/DiagnosticsService.cpp.s:
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f services/system_controller/CMakeFiles/system_controller.dir/build.make services/system_controller/CMakeFiles/system_controller.dir/__/diagnostics_service/DiagnosticsService.cpp.s
+.PHONY : __/diagnostics_service/DiagnosticsService.cpp.s
+
+__/media_service/MediaService.o: __/media_service/MediaService.cpp.o
+.PHONY : __/media_service/MediaService.o
+
+# target to build an object file
+__/media_service/MediaService.cpp.o:
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f services/system_controller/CMakeFiles/system_controller.dir/build.make services/system_controller/CMakeFiles/system_controller.dir/__/media_service/MediaService.cpp.o
+.PHONY : __/media_service/MediaService.cpp.o
+
+__/media_service/MediaService.i: __/media_service/MediaService.cpp.i
+.PHONY : __/media_service/MediaService.i
+
+# target to preprocess a source file
+__/media_service/MediaService.cpp.i:
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f services/system_controller/CMakeFiles/system_controller.dir/build.make services/system_controller/CMakeFiles/system_controller.dir/__/media_service/MediaService.cpp.i
+.PHONY : __/media_service/MediaService.cpp.i
+
+__/media_service/MediaService.s: __/media_service/MediaService.cpp.s
+.PHONY : __/media_service/MediaService.s
+
+# target to generate assembly for a file
+__/media_service/MediaService.cpp.s:
+	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f services/system_controller/CMakeFiles/system_controller.dir/build.make services/system_controller/CMakeFiles/system_controller.dir/__/media_service/MediaService.cpp.s
+.PHONY : __/media_service/MediaService.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -163,6 +211,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... system_controller"
+	@echo "... __/diagnostics_service/DiagnosticsService.o"
+	@echo "... __/diagnostics_service/DiagnosticsService.i"
+	@echo "... __/diagnostics_service/DiagnosticsService.s"
+	@echo "... __/media_service/MediaService.o"
+	@echo "... __/media_service/MediaService.i"
+	@echo "... __/media_service/MediaService.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

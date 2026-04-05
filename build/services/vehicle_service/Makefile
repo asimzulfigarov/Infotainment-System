@@ -178,30 +178,6 @@ VehicleSimulator.cpp.s:
 	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f services/vehicle_service/CMakeFiles/vehicle_service.dir/build.make services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleSimulator.cpp.s
 .PHONY : VehicleSimulator.cpp.s
 
-main.o: main.cpp.o
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f services/vehicle_service/CMakeFiles/vehicle_service.dir/build.make services/vehicle_service/CMakeFiles/vehicle_service.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f services/vehicle_service/CMakeFiles/vehicle_service.dir/build.make services/vehicle_service/CMakeFiles/vehicle_service.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	cd /home/vboxuser/Dev/Infotainment-System/build && $(MAKE) $(MAKESILENT) -f services/vehicle_service/CMakeFiles/vehicle_service.dir/build.make services/vehicle_service/CMakeFiles/vehicle_service.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -217,9 +193,6 @@ help:
 	@echo "... VehicleSimulator.o"
 	@echo "... VehicleSimulator.i"
 	@echo "... VehicleSimulator.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 .PHONY : help
 
 

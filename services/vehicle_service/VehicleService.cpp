@@ -21,5 +21,11 @@ void VehicleService::start(){
     Logger::getLogger().log(LogLevel::INFO, "Engine Temperature=" + std::to_string(data.engineTemperature));
 
     std::this_thread::sleep_for(std::chrono::seconds(3));
+    return; // temporary
     }
+}
+
+
+void VehicleService::startEngine() {
+    Logger::getLogger().log(LogLevel::INFO, "Start Engine Command");
 }

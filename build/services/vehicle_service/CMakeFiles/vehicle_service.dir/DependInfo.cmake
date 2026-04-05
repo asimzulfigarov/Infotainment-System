@@ -10,7 +10,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/vboxuser/Dev/Infotainment-System/services/vehicle_service/VehicleService.cpp" "services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleService.cpp.o" "gcc" "services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleService.cpp.o.d"
   "/home/vboxuser/Dev/Infotainment-System/services/vehicle_service/VehicleSimulator.cpp" "services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleSimulator.cpp.o" "gcc" "services/vehicle_service/CMakeFiles/vehicle_service.dir/VehicleSimulator.cpp.o.d"
-  "/home/vboxuser/Dev/Infotainment-System/services/vehicle_service/main.cpp" "services/vehicle_service/CMakeFiles/vehicle_service.dir/main.cpp.o" "gcc" "services/vehicle_service/CMakeFiles/vehicle_service.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
