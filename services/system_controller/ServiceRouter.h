@@ -11,6 +11,9 @@ public:
     ServiceRouter(VehicleService& v) : m_vehicle(v) {}
     void handleCommand(const std::string& cmd) override {
         if (cmd == "START_ENGINE") m_vehicle.startEngine();
+        if (cmd == "GET_SPEED") m_vehicle.getSpeed();
+        if (cmd == "GET_FUEL") m_vehicle.getFuel();
+        if (cmd == "GET_ENGINE_TEMPERATURE") m_vehicle.getFuel();
     }
 private:
     VehicleService& m_vehicle;

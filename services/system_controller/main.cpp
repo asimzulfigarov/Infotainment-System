@@ -19,6 +19,7 @@ config.loadFromFile("../../../configs/configs.json");
     }
 
     Logger::getLogger().setLevel(level);
+
 }
 
 int main(){
@@ -26,16 +27,17 @@ int main(){
     ConfigLoader config;
     init(config);
     
-
-    //start the service
+    // Create and start services
     VehicleService vehicleService(config);
     vehicleService.start();
 
-    // start the server and pass in the router's services
+    // start the Router
     auto router = std::make_shared<ServiceRouter>(vehicleService);
-    TcpServer server(54000);
-    server.setCommandHandler(router);
 
+    // TCP server
+    int port = config.getInt("vehicle_service", "port");
+    TcpServer server(port);
+    server.setCommandHandler(router);
     server.start();
     
 }

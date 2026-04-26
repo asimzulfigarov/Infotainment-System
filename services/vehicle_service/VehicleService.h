@@ -9,5 +9,8 @@ class VehicleService{
 public:
     VehicleService(ConfigLoader& config);
     void start();
-    void startEngine();
+    bool startEngine();
+    int getSpeed();
+    int getFuel();
+    float getEngineTemperature();
 };

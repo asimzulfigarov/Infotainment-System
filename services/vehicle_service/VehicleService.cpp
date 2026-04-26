@@ -26,6 +26,25 @@ void VehicleService::start(){
 }
 
 
-void VehicleService::startEngine() {
+bool VehicleService::startEngine() {
     Logger::getLogger().log(LogLevel::INFO, "Start Engine Command");
+    return true;
+}
+
+
+int VehicleService::getSpeed() {
+    Logger::getLogger().log(LogLevel::INFO, "Speed: " + std::to_string(m_Simulator.getData().speed));
+    return m_Simulator.getData().speed;
+}
+
+int VehicleService::getFuel() {
+    Logger::getLogger().log(LogLevel::INFO, "Fuel: " + std::to_string(m_Simulator.getData().fuel));
+
+    return m_Simulator.getData().fuel;
+}
+
+float VehicleService::getEngineTemperature() {
+    Logger::getLogger().log(LogLevel::INFO, "Engine Temperature: " + std::to_string(m_Simulator.getData().engineTemperature));
+
+    return m_Simulator.getData().engineTemperature;
 }

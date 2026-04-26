@@ -1,11 +1,16 @@
 #include "TcpServer.h"
 
 #include <iostream>
+#include <string> 
+#include <algorithm>
+
 #include <sys/socket.h>
 #include <arpa/inet.h>
 #include <unistd.h>
 #include <string.h>
+
 #include "../logger/Logger.h"
+
 
 
 TcpServer::TcpServer(int port) : m_port(port) {}
@@ -65,7 +70,10 @@ int TcpServer::start(){
             send(clientSocket, response.c_str(), response.size(), 0);
 
             Logger::getLogger().log(LogLevel::INFO, "Received: " + msg);
-            onMessageReceived(msg);
+            std::string cleanMsg = msg;
+            cleanMsg.erase(std::remove(cleanMsg.begin(), cleanMsg.end(), '\n'), cleanMsg.end());
+            cleanMsg.erase(std::remove(cleanMsg.begin(), cleanMsg.end(), '\r'), cleanMsg.end());
+            onMessageReceived(cleanMsg);
             
         }
         close(clientSocket);

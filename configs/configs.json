@@ -1,6 +1,6 @@
 {
    "vehicle_service": {
-       "port": 5555,
+       "port": 54000,
        "update_frequency_s": 5
    },
    "media_service": {
